@@ -147,7 +147,6 @@ class _CalculatorState extends State<Calculator> {
         _outputHistory = '';
       } else if (buttonText == '=') {
         _outputHistory = _output;
-        // Perform calculation here if needed
       } else {
         if (_output == '0') {
           _output = buttonText;
